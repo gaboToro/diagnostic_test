@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f0f0f0;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#charactersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.character-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 220px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.character-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.character-card h3 {
+  margin: 0.5rem 0;
+}
+
+.character-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+#searchContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0.5rem;
+}
+
+#searchInput {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#searchBtn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchBtn:hover {
+  background-color: #45a049;
+}
+
+#errorMessage {
+  text-align: center;
+  color: red;
+  margin-top: 1rem;
+}
